@@ -1,0 +1,133 @@
+# Compiled source files
+*.dll
+*.exe
+*.so
+*.dylib
+*.pyc
+*.pyo
+*.pdb
+
+# Directories
+bin/
+obj/
+
+# Visual Studio
+.vs/
+.vscode/
+.idea/
+
+# User-specific files
+*.rsuser
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Auto-generated files
+Generated\ Files/
+ipch/
+*_i.c
+*_p.c
+*.ilk
+*.meta
+*.obj
+*.pch
+*.pdb
+*.pgc
+*.pgd
+*.rsp
+*.sbr
+*.tlb
+*.tli
+*.tlh
+*.tmp
+*.tmp_proj
+*.log
+*.vspscc
+*.vssscc
+
+# ASP.NET Scaffolding
+ScaffoldingReadMe.txt
+
+# StyleCop
+StyleCopReport.xml
+
+# Paket
+.paket/paket.exe
+paket-files/
+
+# Azure Functions artifacts
+bin/
+obj/
+
+# DotNet CLI
+.dotnet/
+package-lock.json
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# NPM packages
+node_modules/
+
+# Environment variables
+.env
+.env.*
+
+# Local history
+.history/
+
+# Backup & Report files
+*_BACKUP_*.sql
+*_bak.sql
+*.log
+*.rdl.data
+*.rdl.data.cache
+
+# Windows image file caches
+Thumbs.db
+ehthumbs.db
+
+# Folder config file
+Desktop.ini
+
+# Recycle Bin used on file shares
+$RECYCLE.BIN/
+
+# VS Code settings
+.vscode/settings.json
+
+# Rider
+.idea/
+
+# JetBrains Rider
+.idea/
+*.sln.iml
+
+# Local NuGet
+*.nupkg
+*.snupkg
+
+# NuGet Symbol Cache
+.nuget/packages/
+.nuget/fallbackpackages/
+
+# Microsoft Azure Build Output
+csx/
+*.build.csdef
+
+# Windows Store files
+AppPackages/
+
+# Others
+*.ipynb
+*.tss.cache
+*.tss.log
+.npm/
+.vscode/
+.vscode-test/
+.venv/
+.static_analysis/
+
+# Log files
+*.log

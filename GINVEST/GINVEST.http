@@ -1,0 +1,6 @@
+@GINVEST_HostAddress = http://localhost:5212
+
+GET {{GINVEST_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

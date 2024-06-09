@@ -1,0 +1,53 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34728.123
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GINVEST", "GINVEST\GINVEST.csproj", "{B168C4B5-B2B7-4009-B451-5799A22A7A04}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Lib", "Lib", "{49F86213-6C1E-49BE-B647-BD6AAF52DF49}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "Business", "Lib\Business\Business.shproj", "{C1CF9DA6-0F7C-44BE-8BBF-1A2745D2DE7A}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "Data", "Lib\Data\Data.shproj", "{D635D2BA-B878-4D08-B99A-C7A511FC5A81}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "Domain", "Lib\Domain\Domain.shproj", "{99141B93-FFF6-4A1B-84C5-026C203572F5}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "Infraestructure", "Lib\Infraestructure\Infraestructure.shproj", "{C29D702C-CA38-47C5-8ACC-30A1F09C43AC}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "Respoitory", "Lib\Respoitory\Respoitory.shproj", "{2AF93108-656E-4D30-B0DE-E02468F53A23}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B168C4B5-B2B7-4009-B451-5799A22A7A04}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B168C4B5-B2B7-4009-B451-5799A22A7A04}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B168C4B5-B2B7-4009-B451-5799A22A7A04}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B168C4B5-B2B7-4009-B451-5799A22A7A04}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{C1CF9DA6-0F7C-44BE-8BBF-1A2745D2DE7A} = {49F86213-6C1E-49BE-B647-BD6AAF52DF49}
+		{D635D2BA-B878-4D08-B99A-C7A511FC5A81} = {49F86213-6C1E-49BE-B647-BD6AAF52DF49}
+		{99141B93-FFF6-4A1B-84C5-026C203572F5} = {49F86213-6C1E-49BE-B647-BD6AAF52DF49}
+		{C29D702C-CA38-47C5-8ACC-30A1F09C43AC} = {49F86213-6C1E-49BE-B647-BD6AAF52DF49}
+		{2AF93108-656E-4D30-B0DE-E02468F53A23} = {49F86213-6C1E-49BE-B647-BD6AAF52DF49}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8423CBDF-45E6-4875-BE4B-5615FAB51A7A}
+	EndGlobalSection
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		Lib\Respoitory\GINVEST.Respoitory.projitems*{2af93108-656e-4d30-b0de-e02468f53a23}*SharedItemsImports = 13
+		Lib\Domain\GINVEST.Domain.projitems*{99141b93-fff6-4a1b-84c5-026c203572f5}*SharedItemsImports = 13
+		Lib\Data\GINVEST.Data.projitems*{b168c4b5-b2b7-4009-b451-5799a22a7a04}*SharedItemsImports = 5
+		Lib\Domain\GINVEST.Domain.projitems*{b168c4b5-b2b7-4009-b451-5799a22a7a04}*SharedItemsImports = 5
+		Lib\Business\GINVEST.Business.projitems*{c1cf9da6-0f7c-44be-8bbf-1a2745d2de7a}*SharedItemsImports = 13
+		Lib\Infraestructure\GINVEST.Infraestructure.projitems*{c29d702c-ca38-47c5-8acc-30a1f09c43ac}*SharedItemsImports = 13
+		Lib\Data\GINVEST.Data.projitems*{d635d2ba-b878-4d08-b99a-c7a511fc5a81}*SharedItemsImports = 13
+	EndGlobalSection
+EndGlobal
